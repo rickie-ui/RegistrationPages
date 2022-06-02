@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+}
+
+/* Home styling */
+.home {
+  min-height: 100vh;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.9);
+  background-image: url('../assets/home.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home-content {
+  padding: 50% 18px 0 25px;
+  font-size: 23px;
+}
+.home-content h1 {
+  text-transform: uppercase;
+}
+.home-content p {
+  font-size: 16px;
+  margin: 12px;
+  color: #ffffff;
+}
+.btn-group {
+  margin-top: 70px;
+  padding: 8px;
+}
+.btn-group button {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  border: 0;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 20px;
+  outline: 0;
+  height: 40px;
+}
+.btn-group button:first-child {
+  background-color: #f58f48;
+}
+#glogin {
+  background-color: #3974f2;
+  margin-top: 10px;
+}
+.btn-group button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+/* Styling for login page */
+.login {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url('../assets/home.jfif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.back-arrow {
+  color: black;
+  font-size: 25px;
+  padding: 10px;
+}
+.login-form {
+  background-color: #ffffff;
+  height: 60vh;
+  position: absolute;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  bottom: 0;
+}
+.login-form h2,
+p {
+  text-align: center;
+  color: #081d44;
+}
+.login-form h2 {
+  margin-top: 20px;
+}
+.login-form p {
+  color: rgba(128, 128, 128, 0.4);
+  padding-top: 10px;
+}
+form {
+  width: 94%;
+  margin: 20px auto;
+  padding: 14px;
+}
+input[type='text'],
+input[type='password'],
+input[type='number'],
+input[type='birthday'] {
+  width: 100%;
+  line-height: 16px;
+  padding: 12px 18px;
+  background-color: rgba(128, 128, 128, 0.1);
+  border-radius: 26px;
+  transition: all 0.3s;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  outline: 0;
+}
+input[type='text']:focus,
+input[type='password']:focus,
+input[type='number']:focus,
+input[type='birthday']:focus {
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.1);
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.3s;
+}
+input[type='text']:first-child {
+  margin-bottom: 10px;
+}
+::placeholder {
+  color: rgba(128, 128, 128, 0.4);
+}
+.login-btn {
+  width: 100%;
+  line-height: 40px;
+  margin-top: 25px;
+  background-color: #f58f48;
+  color: #ffffff;
+  border-radius: 25px;
+  font-weight: bold;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #081d44;
+}
+.sign-link {
+  color: #f58f48;
+}
+.login-link {
+  margin-top: 20px;
+}
+.login-link:nth-child(even) {
+  padding-top: 14px;
+}
+
+/* Styling for login page */
+
+.signup input {
+  margin-bottom: 10px;
+}
+.signup-form h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+.forgot {
+  font-size: 14px;
+  padding: 16px;
+}
+/* On screens that are 600px wide or less */
+@media screen and (min-width: 600px) {
+  body {
+    display: none;
+  }
+}
